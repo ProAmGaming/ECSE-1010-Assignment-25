@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Takes 4-bit input, loads it when on "Load Mode" (input 5 is off), shifts and outputs each next bit of the 4 bit input when in "Shift Mode" (input 5 is on)
 
 ## How to test
 
-Explain how to use your project
+Put a 4-bit binary number into inputs 1 through 4. With input 5 off, trigger one clock pulse. Then turn input 5 on and trigger more clock pulses to show the rest of the bits in the digit one at a time.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
